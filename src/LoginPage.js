@@ -4,8 +4,10 @@ function LoginPage() {
  
   return (
     <div>
-      <h2>Login</h2>
-      <input
+      <center>
+      <h2>Login Page</h2>
+      
+      <input 
         type="text"
         placeholder="Username"
        
@@ -16,6 +18,7 @@ function LoginPage() {
      
       /><br />
       <button >Login</button>
+      </center>
     </div>
   );
 }
